@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JavaScript/contact.js" defer></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="content">
+        <aside class="aside">
+            <ul>
+                <li class="actif"><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">Apropos moi</a></li>
+                <li><a href="projets_professionnel.html">Parcours professionnel</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </aside>
+        <div class="main " style="margin-left: 23% !important;
+        margin-top: 70px !important; line-height: 50px; padding-top: 50x;">
+            <h1>Contact</h1>
+            <p> E-mail : yazid boujelben@gmail.com</p>
+            <p>Votre Nom : yazid boujelben<br>
+             Ville : Sfax<br>
+            Pays: Tunisie</p>
+            <p> Linkedin:  <a href="https://www.linkedin.com/in/yazid-boujelben-b40986240/" target="_blank"> yazid boujelben</a> </p> 
+            <div class="email">
+                <h1 class="email" id="email"> contact me</h1>
+                <form name="f">
+                    <label for="sujet">Sujet :</label><br>
+                    <input type="text" id="sujet" name="sujet"><br>
+            
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            
+                    <input type="button" value="Envoyer" onclick="envoyerEmail()">
+                </form>
+            </div>
+        </div>
+</body>
+</html>
